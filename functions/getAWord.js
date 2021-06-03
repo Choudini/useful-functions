@@ -2,9 +2,9 @@
 
 // More explanation in the Wiki page about why you might need this.
 function getAWord(wordId, message) {
-      // this function update the lang 
+      // this function update the language 
     updateLang()
-      // exclude the first word, in my case, the first word is the trigger.
+      // exclude the first word on 'message', in my case, the first word is the trigger.
     var args = message.content.trim().split(/ +/g)
       // just checking if you typed something after the trigger
     if (args.length > 1) {
