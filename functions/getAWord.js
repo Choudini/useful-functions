@@ -1,6 +1,7 @@
-
-
-// More explanation in the Wiki page about why you might need this.
+/*
+This function is quite useful, I use this everytime, maybe there's better way but, if I want my command to have multiple options I use this so I can read
+each argument and do things.
+*/
 function getAWord(wordId, message) {
       // this function update the language 
     updateLang()
